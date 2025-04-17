@@ -141,11 +141,13 @@ main > #special-selection-container > #product-grade{
     flex-wrap: wrap;
 
     padding: 0 0.625rem;
+    margin-bottom: 53px;
 }
 
 main > #special-selection-container > #product-grade > .product-card{
     display: flex;
     align-items: center;
+    gap: 23px;
 
     width: 100%;
 }
@@ -157,6 +159,19 @@ main > #special-selection-container > #product-grade > .product-card > section{
 main > #special-selection-container > #product-grade > .product-card > section.text-container > header.product-header{
     margin: 0;
     padding: 0;
+    margin-bottom: 13px;
+}
+
+main > #special-selection-container > #product-grade > .product-card > section.text-container > .product-price-table > .old-price{
+    margin-bottom: 6px;
+}
+
+main > #special-selection-container > #product-grade > .product-card > section.text-container > .product-price-table > .new-price > p:first-child{
+    margin-bottom: 6px;
+}
+
+main > #special-selection-container > #product-grade > .product-card > section.text-container > footer{
+    margin-top: 10px;
 }
 
 main > #special-selection-container > #product-grade > .product-card > section.text-container > footer > button{
