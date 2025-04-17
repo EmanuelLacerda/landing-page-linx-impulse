@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linx Impulse - Acesse aqui sua lista especial</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/variables.css">
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <header class="page-header">
+            <section id="text-content">
+                <h1 id="page-title" class="font-regular-xl">uma seleção de produtos <span class="font-bold-xl">especial para você</span></h1>
+                <p id="page-description">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+            </section>
+            <section id="buttons">
+                <button class="font-regular-m">Conheça a Linx</button>
+                <button class="font-regular-m">Ajude o algoritmo</button>
+                <button class="font-regular-m">Seus produtos</button>
+                <button class="font-regular-m">Compartilhe</button>
+            </section>
+        </header>
+        <main>
+            <section>
+                <section>
+                    <h2 class="font-regular-xl">Ajude o algoritmo a ser mais certeiro</h2>
+                    <p class="font-regular-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione mollitia, facere impedit, sit accusantium sequi adipisci error id officiis non modi. Corporis, reprehenderit iusto nihil vitae aperiam fugit aspernatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
+                    <p class="font-regular-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
+                </section>
+                <form
+                    class="form"
+                    method="post"
+                    action=""
+                >
+                    <section id="form-body">
+                        <section class="form-field" id="name-field">
+                            <label for="name" class="font-regular-sm">Seu nome:</label>
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              maxlength="255"
+                              required
+                            >
+                        </section>
+                        <section class="form-field" id="email-field">
+                            <label for="email" class="font-regular-sm">E-mail:</label>
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              required
+                            >
+                        </section>
+                        <section class="form-field" id="cpf-field">
+                            <label for="cpf" class="font-regular-sm">CPF:</label>
+                            <input
+                              type="text"
+                              name="cpf"
+                              id="cpf"
+                              minlength="11"
+                              maxlength="14"
+                              required
+                            >
+                        </section>
+                        <section class="form-field" id="gender-field">
+                            <section class="gender-option">
+                                <input
+                                  type="radio"
+                                  name="gender"
+                                  id="male"
+                                  required
+                                >
+                                <label for="male" class="font-regular-sm">Masculino</label>
+                            </section>
+                            <section class="gender-option">
+                                <input
+                                  type="radio"
+                                  name="gender"
+                                  id="female"
+                                  required
+                                >
+                                <label for="female" class="font-regular-sm">Feminino</label>
+                            </section>
+                        </section>
+                    </section>
+                    <section id="form-footer">
+                        <button class="font-regular-l">Enviar</button>
+                    </section>
+                </form>
+            </section>
+            <section id="special-selection-container">
+              <h3 class="font-bold-m">Sua seleção especial</h3>
+              <section class="loading-spinner" id="loadingSpinner"></section>
+              <section id="product-grade">
+              </section>
+              <button id="load-more-button" class="font-regular-l">Ainda mais produtos aqui!</button>
+            </section>
+            <section id="call-subscribe-newsletter">
+                <h3 class="font-bold-m">Compartilhe a novidade</h3>
+                <p class="font-regular-m">Quer que seus amigos também ganhem a lista personalizada deles? Preenche agora!</p>
+                <form
+                    class="form-subscribe-newsletter"
+                    method="post"
+                    action=""
+                >
+                    <section id="form-body">
+                        <section class="form-field" id="friend-name-field">
+                            <label for="friend-name" class="font-regular-sm">Nome do seu amigo:</label>
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              maxlength="255"
+                              required
+                            >
+                        </section>
+                        <section class="form-field" id="friend-email-field">
+                            <label for="friend-email" class="font-regular-sm">E-mail:</label>
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              required
+                            >
+                        </section>
+                    </section>
+                    <section id="form-footer">
+                        <button class="font-regular-l">Enviar agora</button>
+                    </section>
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer font-regular-sm">
+            <p>Testando suas habilidades em HTML, CSS e JS.</p> 
+            <p>Linx Impulse</p>
+            <p>2019</p>
+        </footer>
+        <script src="scripts/index.js" defer></script>
+    </body>
+</html>
