@@ -1,0 +1,57 @@
+/* ******* Header style ******* */
+header{
+    margin-top: 4.125rem;
+    margin-bottom: 6.125rem;
+
+    padding: 0 1rem;
+}
+
+header > #text-content{
+    margin-bottom: 3.5rem;
+}
+
+header > #text-content > #page-title{
+    margin-bottom: 0.5625rem;
+}
+
+
+/* ******* Main style ******* */
+main > section:first-child{
+    margin-bottom: 5.6875rem;
+
+    padding: 0 1rem;
+}
+
+main > section:first-child > section{
+    margin-bottom: 1.875rem;
+}
+
+main > section:first-child > section > h2{
+    margin-bottom: 1.0625rem;
+}
+
+main > section:first-child > section > p{
+    margin-bottom: 1.25rem;
+}
+
+main > section:first-child > section > p:last-child{
+    margin-bottom: 0;
+}
+
+
+main > #special-selection-container{
+    margin-bottom: 8.0625rem;
+}
+
+
+main > #call-subscribe-newsletter{
+    margin-bottom: 9.75rem;
+}
+
+main > #call-subscribe-newsletter > h3{
+    margin-bottom: 1.125rem;
+}
+
+main > #call-subscribe-newsletter > p{
+    margin-bottom: 1.75rem;
+}
