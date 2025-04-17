@@ -1,0 +1,39 @@
+:root{
+    --font-size-sm: 0.75rem /*12px*/;
+    --font-size-m: 0.875rem /*14px*/;
+    --font-size-l: 1rem /*16px*/;
+    --font-size-xl: 1.125rem /*18px*/;
+    --font-size-2xl: 1.25rem/*20px*/;
+    --font-size-3xl: 2.5rem/*40px*/;
+}
+
+
+.font-regular-sm{
+    font-weight: 400;
+    font-size: var(--font-size-sm);
+}
+.font-regular-m{
+    font-weight: 400;
+    font-size: var(--font-size-m);
+}
+.font-regular-l{
+    font-weight: 400;
+    font-size: var(--font-size-l);
+}
+.font-regular-xl{
+    font-weight: 400;
+    font-size: var(--font-size-2xl);
+}
+
+.font-bold-sm{
+    font-weight: 700;
+    font-size: var(--font-size-l);
+}
+.font-bold-m{
+    font-weight: 700;
+    font-size: var(--font-size-xl);
+}
+.font-bold-xl{
+    font-weight: 700;
+    font-size: var(--font-size-3xl);
+}
