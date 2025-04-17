@@ -5,6 +5,11 @@
     --font-size-xl: 1.125rem /*18px*/;
     --font-size-2xl: 1.25rem/*20px*/;
     --font-size-3xl: 2.5rem/*40px*/;
+
+    --gray: #888888;
+    --gray-dark: #707070;
+    --gray-light: #00000029;
+    --white: #FFFFFF;
 }
 
 
