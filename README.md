@@ -6,6 +6,28 @@ Landing page com produtos personalizados para cada usuário baseado na navegaç�
 
 Para executar este projeto basta abrir pelo navegador o arquivo "index.html" presente em "src/". O navegador ficará responsável por executar o projeto.
 
+<h2 id="running">📄 Andamento do projeto</h2>
+
+<h3>O que já foi feito</h3>
+
+- Layout da versão mobile(420 x 918 px).
+- Carregamento e adição na DOM dos 8 primeiros produtos durante o carregamento da página.
+- Adição na DOM de 8 novos produtos.
+
+<h3>O que falta ser feito</h3>
+
+- Ajuste de responsividade para a versão desktop.
+- Adição do link nos 4 botões iniciais.
+- Funcionamento dos dois forms.
+- Subir live preview.
+
+<h3>Detalhamento sobre a priorização</h3>
+
+Atualmente, o mais comum é os usuários acessarem a internet pelo celular do que por PC e notebook, o que torna mais comum a landing page ser acessada via mobile. Além disto, existe uma prática muito comum no frontend chamada mobile-first, que significa construir a estilização pensando no mobile. Por tudo isto, concluir ser melhor começar pela estilzação do mobile.
+
+Quando a estilização mobile ficou pronta, o caminho mais assertivo me pareceu desenvolver a principal funcionalidade da landing page: carregamento dos produtos. Primeiro, desenvolvi o carregamento que ocorre no carregamento da página. Em seguida, desenvolvi a funcionalidade do botão "Ainda mais produtos aqui". Em ambos os casos, testei o carregamento normal e simulei situações de erro(falha na requisição para a API, todos os produtos já foram carregados, ...) de modo a saber se estava tudo funcionando adequadamente. Obviamente, resolvi os erros encontrados durante os testes. 
+
+
 <h2 id="projec-actors">👷 Autores</h2>
 
 * Emanuel Lacerda - Desenvolvedor - [@EmanuelLacerda](https://github.com/EmanuelLacerda/)
