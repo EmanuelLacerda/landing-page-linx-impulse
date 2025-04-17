@@ -4,28 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Linx Impulse - Acesse aqui sua lista especial</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/variables.css">
     </head>
     <body>
         <header>
             <section id="text-content">
-                <h1 id="page-title">uma seleção de produtos <span>especial para você</span></h1>
+                <h1 id="page-title" class="font-regular-xl">uma seleção de produtos <span class="font-bold-xl">especial para você</span></h1>
                 <p id="page-description">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
             </section>
             <section id="buttons">
-                <button>Conheça a Linx</button>
-                <button>Ajude o algoritmo</button>
-                <button>Seus produtos</button>
-                <button>Compartilhe</button>
+                <button class="font-regular-m">Conheça a Linx</button>
+                <button class="font-regular-m">Ajude o algoritmo</button>
+                <button class="font-regular-m">Seus produtos</button>
+                <button class="font-regular-m">Compartilhe</button>
             </section>
         </header>
         <main>
             <section>
                 <section>
                     <h2>Ajude o algoritmo a ser mais certeiro</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione mollitia, facere impedit, sit accusantium sequi adipisci error id officiis non modi. Corporis, reprehenderit iusto nihil vitae aperiam fugit aspernatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
+                    <p class="font-regular-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione mollitia, facere impedit, sit accusantium sequi adipisci error id officiis non modi. Corporis, reprehenderit iusto nihil vitae aperiam fugit aspernatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
+                    <p class="font-regular-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veniam, doloremque nobis iure, nulla sint tenetur a repellat autem animi fuga eligendi voluptate ut eius reprehenderit quo illum! Consequuntur, necessitatibus.</p>
                 </section>
                 <form
                     class="form"
@@ -33,7 +40,7 @@
                     action=""
                 >
                     <section id="form-body">
-                        <label for="name">Seu nome:</label>
+                        <label for="name" class="font-regular-sm">Seu nome:</label>
                         <input
                           type="text"
                           name="name"
@@ -42,7 +49,7 @@
                           required
                         >
 
-                        <label for="email">E-mail:</label>
+                        <label for="email" class="font-regular-sm">E-mail:</label>
                         <input
                           type="email"
                           name="email"
@@ -50,7 +57,7 @@
                           required
                         >
 
-                        <label for="cpf">CPF:</label>
+                        <label for="cpf" class="font-regular-sm">CPF:</label>
                         <input
                           type="text"
                           name="cpf"
@@ -66,7 +73,7 @@
                           id="male"
                           required
                         >
-                        <label for="male">Masculino</label>
+                        <label for="male" class="font-regular-sm">Masculino</label>
 
                         <input
                           type="radio"
@@ -74,181 +81,197 @@
                           id="female"
                           required
                         >
-                        <label for="female">Feminino</label>
+                        <label for="female" class="font-regular-sm">Feminino</label>
                     </section>
                     <section id="form-footer">
-                        <button>Enviar</button>
+                        <button class="font-regular-l">Enviar</button>
                     </section>
                 </form>
             </section>
             <section id="special-selection-container">
-              <h3>Sua seleção especial</h3>
+              <h3 class="font-bold-m">Sua seleção especial</h3>
               <section id="product-grade">
                 <article class="product-card">
                   <header class="product-header">
                     <img src="https://imgs.pontofrio.com.br/55064000/1g.jpg" class="product-image">
-                    <h4 class="product-name">Product Number 0</h4>
+                    <h4 class="product-name font-regular-m">Product Number 0</h4>
                   </header>
                   <section class="product-description">
                     <p>Product long description number 0 just to make more than one like of text.</p>
                   </section>
                   <section class="product-price-table">
-                    <section class="old-price">
+                    <section class="old-price font-regular-sm">
                       <p>De: R$404,00</p>
                     </section>
                     <section class="new-price">
-                      <p>Por: R$323,00</p>
-                      <p>ou 10x de R$32,30</p>
+                      <p class="font-bold-sm">Por: R$323,00</p>
+                      <p class="font-regular-sm">ou 10x de R$32,30</p>
                     </section>
                   </section>
-                  <footer></footer>
-                </article>
+                  <footer>
+                    <button class="font-regular-l">Comprar</button>
+                  </footer>
+                </article>      
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064010/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 1</h4>
+                        <h4 class="product-name font-regular-m">Product Number 1</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 1 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$123,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$98,00</p>
-                            <p>ou 10x de R$9,80</p>
+                            <p class="font-bold-sm">Por: R$98,00</p>
+                            <p class="font-regular-sm">ou 10x de R$9,80</p>
                         </section>
                     </section>
-                    <footer></footer>
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
                 </article>
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064020/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 2</h4>
+                        <h4 class="product-name font-regular-m">Product Number 2</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 2 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$308,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$246,00</p>
-                            <p>ou 10x de R$24,60</p>
+                            <p class="font-bold-sm">Por: R$246,00</p>
+                            <p class="font-regular-sm">ou 10x de R$24,60</p>
                         </section>
                     </section>
-                    <footer></footer>
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
                 </article>
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064030/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 3</h4>
+                        <h4 class="product-name font-regular-m">Product Number 3</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 3 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$432,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$345,00</p>
-                            <p>ou 10x de R$34,50</p>
+                            <p class="font-bold-sm">Por: R$345,00</p>
+                            <p class="font-regular-sm">ou 10x de R$34,50</p>
                         </section>
                     </section>
-                    <footer></footer>
-                </article>    
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
+                </article>
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064040/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 4</h4>
+                        <h4 class="product-name font-regular-m">Product Number 4</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 4 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$473,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$378,00</p>
-                            <p>ou 10x de R$37,80</p>
+                            <p class="font-bold-sm">Por: R$378,00</p>
+                            <p class="font-regular-sm">ou 10x de R$37,80</p>
                         </section>
                     </section>
-                    <footer></footer>
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
                 </article>
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064050/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 5</h4>
+                        <h4 class="product-name font-regular-m">Product Number 5</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 5 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$150,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$120,00</p>
-                            <p>ou 10x de R$12,00</p>
+                            <p class="font-bold-sm">Por: R$120,00</p>
+                            <p class="font-regular-sm">ou 10x de R$12,00</p>
                         </section>
                     </section>
-                    <footer></footer>
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
                 </article>
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064060/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 6</h4>
+                        <h4 class="product-name font-regular-m">Product Number 6</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 6 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$395,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$316,00</p>
-                            <p>ou 10x de R$31,60</p>
+                            <p class="font-bold-sm">Por: R$316,00</p>
+                            <p class="font-regular-sm">ou 10x de R$31,60</p>
                         </section>
                     </section>
-                    <footer></footer>
-                </article> 
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
+                </article>   
                 <article class="product-card">
                     <header class="product-header">
                         <img src="https://imgs.pontofrio.com.br/55064070/1g.jpg" class="product-image">
-                        <h4 class="product-name">Product Number 7</h4>
+                        <h4 class="product-name font-regular-m">Product Number 7</h4>
                     </header>
                     <section class="product-description">
                         <p>Product long description number 7 just to make more than one like of text.</p>
                     </section>
                     <section class="product-price-table">
-                        <section class="old-price">
+                        <section class="old-price font-regular-sm">
                             <p>De: R$394,00</p>
                         </section>
                         <section class="new-price">
-                            <p>Por: R$315,00</p>
-                            <p>ou 10x de R$31,50</p>
+                            <p class="font-bold-sm">Por: R$315,00</p>
+                            <p class="font-regular-sm">ou 10x de R$31,50</p>
                         </section>
                     </section>
-                    <footer></footer>
+                    <footer>
+                        <button class="font-regular-l">Comprar</button>
+                    </footer>
                 </article>
               </section>
-              <button>Ainda mais produtos aqui!</button>
+              <button class="font-regular-l">Ainda mais produtos aqui!</button>
             </section>
             <section id="call-subscribe-newsletter">
-                <h3>Compartilhe a novidade</h3>
-                <p>Quer que seus amigos também ganhem a lista personalizada deles? Preenche agora!</p>
+                <h3 class="font-bold-m">Compartilhe a novidade</h3>
+                <p class="font-regular-m">Quer que seus amigos também ganhem a lista personalizada deles? Preenche agora!</p>
                 <form
                     class="form-subscribe-newsletter"
                     method="post"
                     action=""
                 >
                     <section id="form-body">
-                        <label for="friend-name">Nome do seu amigo:</label>
+                        <label for="friend-name" class="font-regular-sm">Nome do seu amigo:</label>
                         <input
                           type="text"
                           name="name"
@@ -257,7 +280,7 @@
                           required
                         >
 
-                        <label for="friend-email">E-mail:</label>
+                        <label for="friend-email" class="font-regular-sm">E-mail:</label>
                         <input
                           type="email"
                           name="email"
@@ -266,7 +289,7 @@
                         >
                     </section>
                     <section id="form-footer">
-                        <button>Enviar agora</button>
+                        <button class="font-regular-l">Enviar agora</button>
                     </section>
                 </form>
             </section>
@@ -274,7 +297,7 @@
         <footer>
             <p>Testando suas habilidades em HTML, CSS e JS.</p> 
             <p>Linx Impulse</p>
-            <p>2019</p>    
+            <p>2019</p>
         </footer>
     </body>
 </html>
