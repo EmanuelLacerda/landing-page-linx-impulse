@@ -209,6 +209,9 @@ main > #call-subscribe-newsletter > p{
 
 
 /* ******* Footer style ******* */
+footer.page-footer{
+    margin-bottom: 36px;
+}
 footer.page-footer > p{
     text-align: center;
 }
