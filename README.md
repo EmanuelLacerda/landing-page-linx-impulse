@@ -2,9 +2,38 @@
 
 Landing page com produtos personalizados para cada usuário baseado na navegação de cada um.
 
-<h2 id="running">⚙️ Como executar </h2>
+<h2 id="intro">🔥 Introdução:</h2>
 
-Para executar este projeto basta abrir pelo navegador o arquivo "index.html" presente em "src/". O navegador ficará responsável por executar o projeto.
+<h3>⚙️ Pré-requisitos:</h3>
+
+Você precisa ter instalado na sua máquina as seguintes tecnologias:
+- Node 20.x
+
+<h3>🔨 Guia de instalação:</h1>
+
+<h4>Passo 1: Clone esse repositório</h4>
+
+```bash
+git clone git@github.com:EmanuelLacerda/landing-page-linx-impulse.git
+```
+
+<h4>Passo 2: Instale as dependências</h4>
+
+```bash
+npm install
+```
+
+<h4>Passo 03: Execute o projeto</h4>
+
+**1° Inicie o http-server:**
+```bash
+http-server
+```
+
+**2° Acesse no navegador a url indicada pelo http-server:**
+Ex.: http://127.0.0.1:8082/
+
+**3° Acesse o diretório 'src/' na janela do navegador que for aberta:**
 
 <h2 id="running">📄 Andamento do projeto</h2>
 
