@@ -1,0 +1,50 @@
+@media (min-width: 640px){
+    .page-header > #text-content,
+    .page-header > #text-content > #page-description{
+        text-align: center;
+    }
+
+    main > section:first-child{
+        display: flex;
+        gap: 60px;
+    }
+
+    main > section:first-child > section,
+    main > section:first-child > form{
+        width: 50%;
+    }
+
+    main > section:first-child > section{
+        margin: 0;
+    }
+
+    main > #special-selection-container > #product-grade{
+        gap: 41px;
+    }
+
+    main > #special-selection-container > #product-grade > .product-card{
+        width: 25%;
+
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    main > #special-selection-container > #product-grade > .product-card > section{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    main > #call-subscribe-newsletter{
+        width: 720px;
+    }
+
+    main > #call-subscribe-newsletter > form.form-subscribe-newsletter > section#form-body{
+        display: flex;
+        gap:40px;
+    }
+
+    main > #call-subscribe-newsletter > form.form-subscribe-newsletter > section#form-body > section.form-field{
+        width: 50%;
+    }
+}

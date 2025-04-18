@@ -91,6 +91,18 @@ header > #buttons> button{
 
 
 /* ******* Main style ******* */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+main > section{
+    max-width: 920px;
+}
+
 main > section:first-child{
     margin-bottom: 5.6875rem;
 
@@ -107,6 +119,7 @@ main > section:first-child > section > h2{
 
 main > section:first-child > section > p{
     margin-bottom: 1.25rem;
+    text-align: justify;
 }
 
 main > section:first-child > section > p:last-child{
@@ -191,6 +204,7 @@ main > #special-selection-container{
 main > #special-selection-container > #product-grade{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     padding: 0 0.625rem;
     margin-bottom: 53px;
