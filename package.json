@@ -1,0 +1,23 @@
+{
+  "name": "landing-page-linx-impulse",
+  "version": "1.0.0",
+  "description": "Landing page of Linx Impulse",
+  "homepage": "https://github.com/EmanuelLacerda/landing-page-linx-impulse#readme",
+  "bugs": {
+    "url": "https://github.com/EmanuelLacerda/landing-page-linx-impulse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelLacerda/landing-page-linx-impulse.git"
+  },
+  "license": "MIT",
+  "author": "EmanuelLacerda",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
